@@ -1,0 +1,15 @@
+[features]
+seeds = false
+skip-lint = false
+[programs.localnet]
+gif_portal_dapp = "DnVQ9D7ycAQubDz9TVrB7RxRRkBsTtSwmkrZnaGXtWdm"
+
+[registry]
+url = "https://api.apr.dev"
+
+[provider]
+cluster = "http://127.0.0.1:8899"
+wallet = "path_to_your_wallet/id.json"
+
+[scripts]
+test = "yarn run mocha -t 1000000 tests/"
